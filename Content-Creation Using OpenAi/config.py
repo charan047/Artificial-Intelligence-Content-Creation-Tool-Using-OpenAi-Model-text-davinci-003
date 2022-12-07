@@ -5,7 +5,7 @@ class Config(object):
 
 
 class DevelopmentConfig(Config):
-    SECRET_KEY = "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"
+    SECRET_KEY = "Enter-your-super-key-here"
 
 
 config = {
@@ -15,4 +15,4 @@ config = {
 }
 
 # Enter your Open API Key here
-OPENAI_API_KEY = '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'
+OPENAI_API_KEY = ''
