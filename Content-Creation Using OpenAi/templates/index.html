@@ -1,0 +1,122 @@
+{% extends 'includes/layout.html' %} {% block body %}
+<main class="container">
+  <div class="shadow shadow-intensity-xl bg-dark p-5 rounded mt-5">
+    <p class="text-light">
+      It is a web application created in Flask that can be used to generate content using AI API.
+    </p>
+    <p class="text-light">
+      You can use this to <br>
+      -> Create Instagram captions for your post<br>-> Generate any Programming language code<br>
+      -> Create a funny pickup line for the description you give<br>-> Create a Mail Template
+      with given Description<br>-> Generate Instagram Reel or Youtube video ideas<br>
+      -> Generate Instagram Reel or Youtube video Description or caption
+    </p>
+  </div>
+
+  <div class="shadow shadow-intensity-xl bg-light p-5 rounded mt-1">
+    <div class="row">
+      <!-- One Item Starts Here -->
+      <div class="col-lg-3 mb-3">
+        <div class="card shadow shadow-intensity-xl">
+          <div class="card-header bg-dark"><p class="text-light">Instagram Caption</></div>
+          <div class="card-body">
+            <h5 class="card-title">Generate Instagram Captions</h5>
+            <p class="card-text">
+              Generate Instagram Captions for your images, just enter the
+              description of your image.
+            </p>
+            <a href="/product-description" class="btn btn-primary"
+              >Try it!</a
+            >
+          </div>
+        </div>
+      </div>
+      <!-- One Item Ends here -->
+
+
+            <!-- One Item Starts Here -->
+      <div class="col-lg-3 mb-3">
+        <div class="card shadow shadow-intensity-xl">
+          <div class="card-header bg-dark"><p class="text-light">Programming Code</></div>
+          <div class="card-body">
+            <h5 class="card-title">Code Generator</h5>
+            <p class="card-text">
+              This is perfect for any student or employee to easily generate any code snippet easily by entering the 
+            detailed question.
+            </p>
+            <a href="/pcode" class="btn btn-primary">Try it!</a>
+          </div>
+        </div>
+      </div>
+      <!-- One Item Ends here -->
+
+      <!-- One Item Starts Here -->
+      <div class="col-lg-3 mb-3">
+        <div class="card shadow shadow-intensity-xl">
+          <div class="card-header bg-dark"><p class="text-light">Funny Pickup Lines</></div>
+          <div class="card-body">
+            <h5 class="card-title">Generate Funny Pickup Lines</h5>
+            <p class="card-text">
+              Generate Funny Pickup Lines for your friends or for your girl.
+            </p>
+            <a href="/funny-pickupline" class="btn btn-primary"
+              >Try it!</a
+            >
+          </div>
+        </div>
+      </div>
+      <!-- One Item Ends here -->
+
+      <!-- One Item Starts Here -->
+      <div class="col-lg-3 mb-3">
+        <div class="card shadow shadow-intensity-xl">
+          <div class="card-header bg-dark"><p class="text-light">Email Template</></div>
+          <div class="card-body">
+            <h5 class="card-title">Email Template</h5>
+            <p class="card-text">
+              This is perfect for any student to mail company recruiters or to
+              university Faculty created by AI technology.
+            </p>
+            <a href="/cold-emails" class="btn btn-primary">Try it!</a>
+          </div>
+        </div>
+      </div>
+      <!-- One Item Ends here -->
+
+      <!-- One Item Starts Here -->
+      <div class="col-lg-3 mb-3">
+        <div class="card shadow shadow-intensity-xl">
+          <div class="card-header bg-dark"><p class="text-light">Video Ideas</></div>
+          <div class="card-body">
+            <h5 class="card-title">Any Video Ideas</h5>
+            <p class="card-text">
+              Want to get started on YouTube or instagram reels but do you need
+              some Video Ideas to start working on ? Then what are you waiting
+              for Start generating some new Video Ideas right away with AI.
+            </p>
+            <a href="/video-ideas" class="btn btn-primary">Try it!</a>
+          </div>
+        </div>
+      </div>
+      <!-- One Item Ends here -->
+
+      <!-- One Item Starts Here -->
+      <div class="col-lg-3 mb-3">
+        <div class="card shadow shadow-intensity-xl">
+          <div class="card-header bg-dark"><p class="text-light">Videos Caption or Description</></div>
+          <div class="card-body">
+            <h5 class="card-title">Video Description</h5>
+            <p class="card-text">
+              This AI tool will help you draft some cool video descriptions
+              based on a given input of topic or video idea. Just enter your
+              video topic.
+            </p>
+            <a href="/video-description" class="btn btn-primary">Try it!</a>
+          </div>
+        </div>
+      </div>
+      <!-- One Item Ends here -->
+    </div>
+  </div>
+</main>
+{% endblock %}
