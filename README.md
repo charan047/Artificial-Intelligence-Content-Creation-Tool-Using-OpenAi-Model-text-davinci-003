@@ -19,3 +19,5 @@ To make it easier to use with more in-depth understanding Davinci-based models a
 ### Before running this project in config.py file you need to put the api key which is different for every user so go to https://beta.openai.com/ -> profile -> view API keys-> if already superkey is created copy paste it and use it in config.py file or just click on Create new Super key
 
 In future we can add more options and create as much as content needed in different fields.
+
+#### Any contributions towards this project are accepted.
